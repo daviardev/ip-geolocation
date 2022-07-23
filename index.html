@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Verificación de seguridad de otros sitios web" content="En este sitio creado con fines educativos, podrás consultar una IP y la API encontrará un sitio relacionado con esa IP">
+    <link rel="shortcut icon" href="https://rapidapi.com/cdn/images?url=https://rapidapi-prod-apis.s3.amazonaws.com/978eb0ed-f54c-49cd-9cf2-fdf5211e606e.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>IP Geolocation and Threat Detection
+    </title>
+</head>
+<body>
+    <main class="container" id="inicio">
+        <h2>Mini proyecto | Consumiendo API</h2>
+        <form id="formulario">
+            <label>
+                IP del usuario
+                <input id="caja" type="text" placeholder="Introduzca la IP de la que quiera información" required onkeypress="return valideKey(event);">
+                <small>Por ejemplo: 54.85.132.205</small>
+            </label>
+            <button type="submit" id="buscar">
+                Buscar información de la ip
+            </button>
+        </form>
+        <div>
+            <pre id="resultados"></pre>
+        </div>
+    </main>
+    <a href="#inicio"><i class="ri-mouse-line" id="buttom__up"></i></a>
+    <footer class="footer">© DevSilva. Todos los derechos reservados</footer>
+</body>
+<script src="./js/script.js"></script>
+</html>

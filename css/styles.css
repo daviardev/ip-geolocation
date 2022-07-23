@@ -1,0 +1,25 @@
+* {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.ri-mouse-line {
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    font-size: 35px;
+    color: #fff;
+    width: 40px;
+    transition: all 0.5s;
+}
+
+.footer {
+    display: block;
+    margin-top: 145px;
+    text-align: center;
+    font-size: 0.7rem;
+}
